@@ -10,6 +10,7 @@
 
   <link rel="stylesheet" href="../css/main.css">
   <script src="../js/components/site-header.js"></script>
+  <script src="../js/components/card-produto.js"></script>
 </head>
 <body>
   <site-header></site-header>
@@ -20,5 +21,38 @@
     <h5>Encontre peças cuidadosamente selecionadas para deixar sua casa mais sofisticada e aconchegante.</h5>
     <button>Ver coleção</button>
   </div>
+
+  <section class="produtos">
+    <h2>Nossos Destaques</h2>
+    <div class="cards">
+      <card-produto
+        src="../assets/vaso.jpg"
+        categoria="Sala"
+        titulo="Vaso decorativo"
+        preco="R$ 89,90"
+      ></card-produto>
+
+      <card-produto
+        src="../assets/luminaria.jpg"
+        categoria="Sala"
+        titulo="Luminária moderna"
+        preco="R$ 149,90"
+      ></card-produto>
+
+      <card-produto
+        src="../assets/quadro.jpg"
+        categoria="Sala"
+        titulo="Moldura para Quadro"
+        preco="R$ 109,90"
+      ></card-produto>
+
+      <card-produto
+        src="../assets/espelho.jpg"
+        categoria="Sala"
+        titulo="Espelho para sala"
+        preco="R$ 219,90"
+      ></card-produto>
+    </div>
+  </section>
 </body>
 </html>
