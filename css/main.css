@@ -3,5 +3,6 @@
 
 @import "layout/header.css";
 @import "layout/hero.css";
+@import "layout/about.css";
 
 @import "components/card.css";
