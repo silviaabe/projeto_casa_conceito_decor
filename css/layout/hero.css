@@ -1,20 +1,15 @@
 .hero {
   position: relative;
-
   background-image: url("../../assets/sala.jpg");
   background-size: cover;
   background-position: center;
-
   height: 100vh;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   color: white;
   text-align: center;
-
   overflow: hidden;
 }
 
@@ -22,7 +17,6 @@
   content: "";
   position: absolute;
   inset: 0;
-
   background: rgba(0, 0, 0, 0.35);
 }
 
@@ -49,10 +43,10 @@
 .hero h5 {
   font-size: 16px;
   font-weight: normal;
+  margin-bottom: 20px;
 }
 
 button {
-  margin-top: 20px;
   background-color: var(--cor-marrom);
   color: var(--cor-bege);
   font-size: 14px;
