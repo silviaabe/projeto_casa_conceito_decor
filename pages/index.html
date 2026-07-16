@@ -78,7 +78,7 @@
   </section>
 
   <section class="frete">
-    <h2>Consulte o frete</h2>
+    <h2>Consulte seu frete</h2>
     <div class="frete__form">
       <input
         type="text"
@@ -91,6 +91,39 @@
       </button>
     </div>
     <div id="resultado"></div>
+  </section>
+
+  <section class="contato">
+    <h2>Entre em contato</h2>
+    <p class="contato__texto">
+      Tem alguma dúvida ou deseja mais informações? 
+      <br>
+      Ficaremos felizes em ajudar.
+    </p>
+    <form id="formContato" class="contato__form">
+      <input
+        type="text"
+        id="nome"
+        placeholder="Seu nome"
+        required
+      >
+      <input
+        type="email"
+        id="email"
+        placeholder="Seu e-mail"
+        required
+      >
+      <textarea
+        id="mensagem"
+        placeholder="Digite sua mensagem"
+        rows="6"
+        required
+      ></textarea>
+      <button type="submit">
+        Enviar mensagem
+      </button>
+    </form>
+    <div id="mensagemContato"></div>
   </section>
 </body>
 </html>

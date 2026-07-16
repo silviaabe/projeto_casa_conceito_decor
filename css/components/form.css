@@ -1,0 +1,86 @@
+.contato {
+  padding: 80px 20px;
+  background: var(--cor-branco);
+  text-align: center;
+}
+
+.contato h2 {
+  font-family: var(--fonte-titulo);
+  font-size: 50px;
+  color: var(--cor-verde-oliva);
+  margin-bottom: 10px;
+}
+
+.contato__texto {
+  color: var(--cor-verde-oliva);
+  margin-bottom: 40px;
+}
+
+.contato__form {
+  max-width: 650px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contato input,
+.contato textarea {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid var(--cor-marrom);
+  border-radius: 8px;
+  background: var(--cor-branco);
+  font-family: var(--fonte-texto);
+  font-size: 16px;
+  outline: none;
+  transition: .3s;
+}
+
+.contato textarea {
+  resize: none;
+  min-height: 150px;
+}
+
+.contato input:focus,
+.contato textarea:focus {
+  box-shadow: 0 0 0 3px rgba(159,131,102,.15);
+}
+
+.contato button {
+  align-self: center;
+  padding: 14px 36px;
+  border: none;
+  border-radius: 8px;
+  background: var(--cor-marrom);
+  color: var(--cor-bege);
+  cursor: pointer;
+  transition: .3s;
+}
+
+.contato button:hover {
+  background: var(--cor-verde-oliva);
+}
+
+#mensagemContato {
+  margin-top: 30px;
+}
+
+.mensagem-contato {
+  max-width: 350px;
+  margin: auto;
+  background: var(--cor-bege);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
+  animation: aparecer .3s ease;
+}
+
+.mensagem-contato h3 {
+  color: var(--cor-marrom);
+}
+
+.mensagem-contato p {
+  color: var(--cor-marrom);
+  margin: 8px 0;
+}
