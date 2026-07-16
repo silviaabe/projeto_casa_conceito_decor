@@ -4,6 +4,7 @@
 @import "layout/header.css";
 @import "layout/hero.css";
 @import "layout/about.css";
+@import "layout/footer.css";
 
 @import "components/card.css";
 @import "components/frete.css";
