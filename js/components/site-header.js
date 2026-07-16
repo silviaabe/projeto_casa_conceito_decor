@@ -3,8 +3,7 @@ class SiteHeader extends HTMLElement {
     this.innerHTML =
       `<header class="cabecalho">
         <div class="logo">
-          <!-- <img src="./logo.png" alt="Logo Casa Conceito Decor"> -->
-          Casa Conceito Decor
+          <img src="../../assets/logo.png" alt="Logo Casa Conceito Decor">
         </div>
         <nav class="navegacao">
           <a href="#">INICIAR SESSÃO</a>

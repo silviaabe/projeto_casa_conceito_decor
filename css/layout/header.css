@@ -11,11 +11,17 @@
   z-index: 10;
 }
 
-.logo {
+.logo img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+/* .logo {
   font-family: var(--fonte-titulo);
   font-size: 36px;
   font-weight: bold;
-}
+} */
 
 .navegacao {
   display: flex;
