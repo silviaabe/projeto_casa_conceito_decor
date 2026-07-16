@@ -1,0 +1,10 @@
+:root {
+  --cor-branco: #FFFFFF;
+  --cor-bege: #F7F3EF;
+  --cor-marrom: #8B6A4E;
+  --cor-verde-oliva: #5B6B4D;
+  --cor-cinza-escuro: #3C3C3C;
+
+  --fonte-titulo: "Playfair Display", serif;
+  --fonte-texto: "Poppins", sans-serif;
+}

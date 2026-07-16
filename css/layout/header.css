@@ -1,0 +1,35 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 4px solid var(--cor-cinza-escuro);
+  background-color: var(--cor-bege);
+
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-family: var(--fonte-titulo);
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.navegacao {
+  display: flex;
+  gap: 20px;
+}
+
+.navegacao a {
+  font-family: var(--fonte-texto);
+  font-size: 15px;
+  color: var(--cor-marrom);
+  text-decoration: none;
+}
+
+.navegacao a:hover {
+  color: var(--cor-verde-oliva);
+  text-decoration: underline;
+}
