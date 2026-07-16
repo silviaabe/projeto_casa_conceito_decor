@@ -1,0 +1,102 @@
+.frete {
+  padding: 80px 20px;
+  background: var(--cor-bege);
+  text-align: center;
+}
+
+.frete h2 {
+  font-family: var(--fonte-titulo);
+  font-size: 40px;
+  margin-bottom: 30px;
+  color: var(--cor-verde-oliva);
+}
+
+.frete__form {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 15px;
+}
+
+.frete input,
+.frete button {
+    height: 52px;
+    box-sizing: border-box;
+}
+
+.frete input {
+  width: 260px;
+  padding: 8px 12px;
+  border: 1px solid var(--cor-marrom);
+  background-color: var(--cor-branco);
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: var(--fonte-texto);
+  outline: none;
+  transition: .3s;
+}
+
+.frete input:focus {
+  box-shadow: 0 0 0 3px rgba(159,131,102,.15);
+}
+
+.frete button {
+  background-color: var(--cor-marrom);
+  color: var(--cor-bege);
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.frete button:hover {
+  background-color: var(--cor-verde-oliva);
+}
+
+#resultado {
+  margin-top: 30px;
+}
+
+.resultado-frete {
+  max-width: 420px;
+  margin: auto;
+  background: var(--cor-branco);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+  animation: aparecer .3s ease;
+}
+
+.resultado-frete h3 {
+  color: var(--cor-marrom);
+  margin-bottom: 15px;
+}
+
+.resultado-frete p {
+  margin: 10px 0;
+  color: var(--cor-marrom);
+}
+
+.valor-frete {
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--cor-marrom);
+}
+
+.erro {
+  color: #c0392b;
+  font-weight: 600;
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

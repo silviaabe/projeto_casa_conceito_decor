@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="../css/main.css">
   <script src="../js/components/site-header.js"></script>
   <script src="../js/components/card-produto.js"></script>
+  <script type="module" src="../js/main.js"></script>
 </head>
 <body>
   <site-header></site-header>
@@ -74,6 +75,22 @@
       </p>
       <button>Conheça mais</button>
     </div>
+  </section>
+
+  <section class="frete">
+    <h2>Consulte o frete</h2>
+    <div class="frete__form">
+      <input
+        type="text"
+        id="cep"
+        maxlength="9"
+        placeholder="00000-000"
+      >
+      <button id="btnFrete">
+        Calcular
+      </button>
+    </div>
+    <div id="resultado"></div>
   </section>
 </body>
 </html>
