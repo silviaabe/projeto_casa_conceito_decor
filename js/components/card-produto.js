@@ -11,7 +11,7 @@ class Card extends HTMLElement {
       <span class="categoria">${categoria}</span>
       <h3 class="titulo">${titulo}</h3>
       <p class="preco">${preco}</p>
-      <button>Ver detalhes</button>
+      <button class="btn">Ver detalhes</button>
     </div>
     `
   }

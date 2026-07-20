@@ -40,21 +40,7 @@
   box-shadow: 0 0 0 3px rgba(159,131,102,.15);
 }
 
-.frete button {
-  background-color: var(--cor-marrom);
-  color: var(--cor-bege);
-  font-size: 14px;
-  padding: 8px 12px;
-  border-radius: 8px;
-  cursor: pointer;
-  border: none;
-}
-
-.frete button:hover {
-  background-color: var(--cor-verde-oliva);
-}
-
-#resultado {
+s#resultado {
   margin-top: 30px;
 }
 
