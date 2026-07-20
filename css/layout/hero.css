@@ -23,7 +23,7 @@
 .hero h1,
 .hero h3,
 .hero h5,
-.hero button {
+.hero a {
   position: relative;
   z-index: 1;
 }
@@ -44,4 +44,8 @@
   font-size: 16px;
   font-weight: normal;
   margin-bottom: 20px;
+}
+
+.hero a {
+  text-decoration: none;
 }

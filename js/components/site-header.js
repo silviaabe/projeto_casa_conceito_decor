@@ -6,8 +6,9 @@ class SiteHeader extends HTMLElement {
           <img src="../../assets/logo.png" alt="Logo Casa Conceito Decor">
         </div>
         <nav class="navegacao">
-          <a href="#">INICIAR SESSÃO</a>
-          <a href="#">AJUDA</a>
+          <a href="#destaques">PRODUTOS</a>
+          <a href="#sobre">SOBRE</a>
+          <a href="#contato">CONTATO</a>
           <a href="#">CARRINHO</a>
         </nav>
       </header>`

@@ -44,6 +44,10 @@
   color:var(--cor-cinza-escuro);
 }
 
+.sobre a {
+  text-decoration: none;
+}
+
 @media (max-width: 768px) {
   .sobre {
     flex-direction: column;
