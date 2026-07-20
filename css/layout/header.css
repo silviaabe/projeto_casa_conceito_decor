@@ -33,3 +33,25 @@
   color: var(--cor-verde-oliva);
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  .cabecalho {
+    flex-direction: column;
+    padding: 12px 20px;
+  }
+
+  .logo img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .navegacao {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .navegacao a {
+    font-size: 14px;
+  }
+}

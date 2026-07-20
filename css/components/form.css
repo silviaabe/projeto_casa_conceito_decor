@@ -6,17 +6,19 @@
 
 .contato h2 {
   font-family: var(--fonte-titulo);
-  font-size: 50px;
+  font-size: clamp(32px, 5vw, 50px);
   color: var(--cor-verde-oliva);
   margin-bottom: 10px;
 }
 
 .contato__texto {
   color: var(--cor-verde-oliva);
-  margin-bottom: 40px;
+  margin: 0 auto 40px;
+  max-width: 600px;
 }
 
 .contato__form {
+  width: 100%;
   max-width: 650px;
   margin: auto;
   display: flex;
@@ -52,6 +54,7 @@
 }
 
 .mensagem-contato {
+  width: 100%;
   max-width: 350px;
   margin: auto;
   background: var(--cor-bege);
@@ -68,4 +71,29 @@
 .mensagem-contato p {
   color: var(--cor-marrom);
   margin: 8px 0;
+}
+
+@media (max-width: 600px) {
+  .contato {
+    padding: 60px 20px;
+  }
+
+  .contato__texto {
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+
+  .contato__form {
+    gap: 15px;
+  }
+
+  .contato input,
+  .contato textarea {
+    padding: 14px;
+    font-size: 15px;
+  }
+
+  .mensagem-contato {
+    padding: 20px;
+  }
 }

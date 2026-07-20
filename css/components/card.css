@@ -7,12 +7,13 @@
   text-align: center;
   margin-bottom: 50px;
   font-family: var(--fonte-titulo);
-  font-size: 50px;
+  font-size: clamp(32px, 5vw, 50px);
 }
 
 .cards {
   display: flex;
   justify-content: center;
+  align-items: stretch;
   gap: 30px;
   flex-wrap: wrap;
 }
@@ -23,6 +24,7 @@
 
 .card {
   width: 320px;
+  max-width: 100%;
   background: var(--cor-branco);
   border-radius: 16px;
   overflow: hidden;
@@ -30,7 +32,6 @@
   transition: .3s;
   display: flex;
   flex-direction: column;
-  flex: 1;
 }
 
 .card:hover {
@@ -74,4 +75,23 @@
 .card button {
   margin: auto 20px 20px;
   width: calc(100% - 40px);
+}
+
+@media (max-width: 768px) {
+  .produtos {
+    padding: 60px 20px;
+  }
+
+  .produtos h2 {
+    margin-bottom: 35px;
+  }
+
+  .cards {
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 350px;
+  }
 }

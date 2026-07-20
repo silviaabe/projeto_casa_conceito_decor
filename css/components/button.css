@@ -8,17 +8,6 @@
   border: none;
 }
 
-/* .contato button {
-  align-self: center;
-  padding: 14px 36px;
-  border: none;
-  border-radius: 8px;
-  background: var(--cor-marrom);
-  color: var(--cor-bege);
-  cursor: pointer;
-  transition: .3s;
-} */
-
 .btn:hover {
   background: var(--cor-verde-oliva);
 }
