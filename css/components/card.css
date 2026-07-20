@@ -17,6 +17,10 @@
   flex-wrap: wrap;
 }
 
+.cards > card-produto {
+  display: flex;
+}
+
 .card {
   width: 320px;
   background: var(--cor-branco);
@@ -24,6 +28,9 @@
   overflow: hidden;
   box-shadow: 0 8px 25px rgba(0,0,0,.08);
   transition: .3s;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .card:hover {
@@ -38,6 +45,7 @@
 
 .card span {
   display: inline-block;
+  align-self: flex-start;
   margin: 20px 20px 10px;
   padding: 4px 10px;
   background: var(--cor-verde-oliva);
@@ -51,13 +59,19 @@
   font-family: var(--fonte-texto);
 }
 
-.preco {
+.card .preco {
   margin: 8px 20px;
   font-size: 16px;
   font-weight: 600;
 }
 
+.card .descricao {
+  margin: 0 20px 16px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
 .card button {
-  margin: 0 20px 20px;
+  margin: auto 20px 20px;
   width: calc(100% - 40px);
 }
